@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Cloud Resume</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Lamia Asad</h1>
+    <p>Data Scientist | AWS Cloud Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>This is a cloud-hosted resume with a real-time visitor counter and contact form.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Data Scientist Intern</strong> – Motive Company (2024)<br>
+        Worked on machine learning models for customer segmentation using Python and Scikit-learn.
+      </li>
+      <li>
+        <strong>Research Assistant</strong> – GIKI (2026)<br>
+        Assisted in AI-driven climate modeling research using AWS cloud resources.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, R, SQL</li>
+      <li>Machine Learning, Data Visualization, Deep Learning</li>
+      <li>AWS: Lambda, S3, DynamoDB, API Gateway</li>
+      <li>Git, Docker, Linux</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Cloud Resume Challenge</strong><br>
+        Deployed a fully serverless resume site on AWS using S3, Lambda, API Gateway, and DynamoDB.
+      </li>
+      <li>
+        <strong>Stock Price Predictor</strong><br>
+        Built a predictive model using LSTM networks to forecast stock prices.
+      </li>
+      <li>
+        <strong>Climate Data Dashboard</strong><br>
+        Created a dashboard using Plotly Dash to visualize global climate trends.
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Visitor Counter</h2>
+    <p>You're visitor number: <span id="visitor-count">Loading...</span></p>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required /><br>
+      <input type="email" name="email" placeholder="Your Email" required /><br>
+      <textarea name="message" placeholder="Your Message" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
